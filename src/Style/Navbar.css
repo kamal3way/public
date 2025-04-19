@@ -1,0 +1,94 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  background-color: #066851; /* Blue background */
+  color: white;
+  padding: 16px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 24px;
+}
+
+.navbar-link {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #93C5FD; /* Light blue on hover */
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-welcome {
+  font-size: 16px;
+}
+
+.navbar-dropdown-btn {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+
+.navbar-dropdown {
+  position: absolute;
+  right: 24px;
+  top: 60px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 200px;
+}
+
+.navbar-dropdown-item {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.navbar-dropdown-item:hover {
+  background-color: #F3F4F6; /* Light gray on hover */
+}
+
+.navbar-dropdown-link {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.navbar-auth-links {
+  display: flex;
+  gap: 16px;
+}
+
+.navbar-auth-links .navbar-link {
+  font-size: 16px;
+  font-weight: 500;
+}
