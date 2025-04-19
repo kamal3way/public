@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import c4 from "../images/c4.jpg";
-import c1 from "../images/c1.jpg";
-import c3 from "../images/c3.jpg";
-import c2 from "../images/c2.jpg";
+import c4 from "../images/C4.jpg";
+import c1 from "../images/C1.jpg";
+import c3 from "../images/C3.jpg";
+import c2 from "../images/C2.jpg";
 import d1 from "../images/d1.jpg";
 import d3 from "../images/d3.jpg";
 import t1 from "../images/t1.jpg";
-import b4 from "../images/b4.jpg";
-import b6 from "../images/b6.jpg";
+import b4 from "../images/B4.jpg";
+import b6 from "../images/B6.jpg";
 
 const images = [
   { id: 1, src: c4, category: "Nature", title: "Mountain View" },
