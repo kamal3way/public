@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import b3 from "../images/b3.jpg";
+import b3 from "../images/B3.jpg";
 
 const LearnMore = () => {
   const navigate = useNavigate();

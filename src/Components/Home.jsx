@@ -5,10 +5,10 @@ import { Carousel } from "react-responsive-carousel";
 
 import d2 from "../images/d2.jpg";
 import t2 from "../images/t2.jpg";
-import b2 from "../images/b2.jpg";
+import b2 from "../images/B2.jpg";
 import t4 from "../images/t4.jpg";
 import t7 from "../images/t7.webp";
-import b5 from "../images/b5.jpg";
+import b5 from "../images/B5.jpg";
 import bb1 from "../images/bb1.jpg";
 
 const Home = () => {
